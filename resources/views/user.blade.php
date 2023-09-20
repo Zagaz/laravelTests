@@ -13,7 +13,7 @@
     <h1>User</h1>
     <label for="">
         Name:
-        <p>{{ $name }} {{ $last }}</p>
+        <p>{{ $name }} {{ $last }} | {{ $age }}</p>
     </label>
 
 

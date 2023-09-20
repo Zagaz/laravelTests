@@ -48,4 +48,7 @@ Route::get('/user/{name}/', function ($name) {
 
 Route::get('/user/{name}/{last}', 'Main@user');
 
-Route::view('/usera/{name}/{last}', 'user');
+Route::view('/usera/{name}/{age}/{last?}', 'user'); // <= Keep the optionals to the last
+
+//Below is a route with an Optional Parameter
+//Route::view('/usera/{name?}/{last?}', 'user');

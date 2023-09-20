@@ -31,11 +31,12 @@ class Main extends Controller
     {
         echo "Name: $name $last!";
     }
-    public function userView($name, $last)
+    public function userView($name, $age , $last = ''  )
     {
         return view("user", [
             "name" => $name,
-            "last" => $last
+            "last" => $last,
+            "age" => $age
         ]);
     }
 }
