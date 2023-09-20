@@ -52,3 +52,11 @@ Route::view('/usera/{name}/{age}/{last?}', 'user'); // <= Keep the optionals to 
 
 //Below is a route with an Optional Parameter
 //Route::view('/usera/{name?}/{last?}', 'user');
+
+// Ramed Routes
+Route::get('/home','Main@home')->name('home');
+Route::get('/services','Main@services')->name('services');
+Route::get('/contacts','Main@contacts')->name('contacts');
+
+
+
