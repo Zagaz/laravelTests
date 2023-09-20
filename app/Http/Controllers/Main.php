@@ -27,4 +27,15 @@ class Main extends Controller
             "pgnum" => "b"
         ]);
     }
+    public function user($name, $last)
+    {
+        echo "Name: $name $last!";
+    }
+    public function userView($name, $last)
+    {
+        return view("user", [
+            "name" => $name,
+            "last" => $last
+        ]);
+    }
 }
