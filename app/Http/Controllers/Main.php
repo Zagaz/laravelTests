@@ -9,7 +9,7 @@ class Main extends Controller
     //
     public function index()
     {
-        echo "j";
+        echo "Index";
     }
 
     public function printName()

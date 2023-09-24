@@ -54,9 +54,13 @@ Route::view('/usera/{name}/{age}/{last?}', 'user'); // <= Keep the optionals to 
 //Route::view('/usera/{name?}/{last?}', 'user');
 
 // Ramed Routes
-Route::get('/home','Main@home')->name('home');
-Route::get('/services','Main@services')->name('services');
-Route::get('/contacts','Main@contacts')->name('contacts');
+Route::get('/home', 'Main@home')->name('home');
+Route::get('/services', 'Main@services')->name('services');
+Route::get('/contacts', 'Main@contacts')->name('contacts');
 
 
+// Testin...
+Route::get('/clients', 'Clients@index');
+Route::get('/nomes', 'Clients@nomes');
 
+Route::get('/shirts/{s}', 'products\shirts@shirts');
