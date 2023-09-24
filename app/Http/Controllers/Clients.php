@@ -41,4 +41,12 @@ class Clients extends Controller
             echo "Rank:" . $this->clients[$index]['rank'] . "<br>";
         }
     }
+    /**
+     * Create product
+     * Read product
+     * Update product
+     * Delete products
+     */
+
+     
 }

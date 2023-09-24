@@ -68,3 +68,5 @@ Route::get('/shirts/{s}', 'products\shirts@shirts');
 Route::get('status/{a}', 'Stats');
 Route::get('client/{index}', 'Clients@cliente');
 
+// Class 13
+Route :: resource('products', 'Products');
