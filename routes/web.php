@@ -62,5 +62,9 @@ Route::get('/contacts', 'Main@contacts')->name('contacts');
 // Testin...
 Route::get('/clients', 'Clients@index');
 Route::get('/nomes', 'Clients@nomes');
-
 Route::get('/shirts/{s}', 'products\shirts@shirts');
+
+// Class 12
+Route::get('status/{a}', 'Stats');
+Route::get('client/{index}', 'Clients@cliente');
+
