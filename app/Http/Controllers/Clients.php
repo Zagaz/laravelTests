@@ -25,7 +25,12 @@ class Clients extends Controller
 
     public function index()
     {
-        echo "Clients";
+        echo "Clients Controller";
+    }
+    public function pagina()
+    {
+       // return view ("pagina"); XOR
+       echo view("pagina");
     }
     public function nomes()
     {
@@ -48,5 +53,5 @@ class Clients extends Controller
      * Delete products
      */
 
-     
+
 }

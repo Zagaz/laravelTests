@@ -70,3 +70,8 @@ Route::get('client/{index}', 'Clients@cliente');
 
 // Class 13
 Route :: resource('products', 'Products');
+
+//class 14
+Route :: view ('ver', 'pagina');
+Route :: view ('cliente', 'clientes.cliente');
+Route :: get('vercontroller', 'Clients@pagina');
