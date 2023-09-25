@@ -78,7 +78,23 @@ class Main extends Controller
 
     }
 
-    
+    // Class 015
+
+    public function home2(){
+        $data = [
+            'title' => 'Ex exercitation consectetur ',
+            'content' => 'Do deserunt duis pariatur velit ullamco culpa aliquip ad enim. Voluptate veniam minim id in dolore consectetur. Amet dolore sit proident aliquip quis dolore.',
+            'services' => [
+                'Web Design',
+                'Programming',
+                'SEO'
+            ]
+
+        ];
+        return view('home2' , $data);
+    }
+
+
 
 
 }
