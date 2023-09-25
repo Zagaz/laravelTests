@@ -13,9 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+*/
+
+Route::get('/' , 'Main@home2');
+
+
+
+
 /*
 Structure of a route:
 Route::<action>(<path>, <controller>@<function>)
@@ -75,3 +83,9 @@ Route :: resource('products', 'Products');
 Route :: view ('ver', 'pagina');
 Route :: view ('cliente', 'clientes.cliente');
 Route :: get('vercontroller', 'Clients@pagina');
+
+// Class 15
+
+
+
+
