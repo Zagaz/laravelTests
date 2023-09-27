@@ -1,22 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Laravel : Home II</title>
-</head>
-<body>
-    <h3>Home II</h3>
-    <h1>{{ $title}}</h1>
-    <p>
-        {{ $content }}
-    </p>
-    <ul>
-        @foreach ($services as $service)
-            <li>{{ $service }}</li>
-        @endforeach
-</ul>
 
-</body>
-</html>
+@extends('layout')
+
+
+@section('conteudo')
+<div>
+    <p>Essa é a HomePage2</p>
+
+</div>
+@endsection
+
+@section('disc')
+    <div>
+        <p>DISCLAIMER</p>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, eum corporis culpa architecto iste molestiae ab, ratione quis expedita distinctio dolorem deserunt quidem ullam quo temporibus id nisi provident perferendis.Accusantium, enim eligendi? Ducimus, fugiat, repudiandae atque amet tempora quos temporibus reprehenderit provident praesentium neque ipsa quaerat, corrupti vero magnam molestias hic dolore nulla. Est velit sint enim labore cum.
+        </div>
+    </div>
+@endsection
+
+
+

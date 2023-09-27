@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 */
 
-Route::get('/' , 'Main@home2');
+Route::get('/' , 'Main@home2'); // Class 16 -> BLADE LAYOUTS
 
 
 
